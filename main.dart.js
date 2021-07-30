@@ -72150,7 +72150,7 @@ this.zm()},
 zm:function(){var s=0,r=P.J(t.z),q=this
 var $async$zm=P.E(function(a,b){if(a===1)return P.G(b,r)
 while(true)switch(s){case 0:q.IP()
-P.KP(P.cr(0,2000,0),new T.aaa(q))
+P.KP(P.cr(0,1000,0),new T.aaa(q))
 return P.H(null,r)}})
 return P.I($async$zm,r)},
 IP:function(){this.za()

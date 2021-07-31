@@ -23,16 +23,47 @@
     <meta name="apple-mobile-web-app-status-bar-style" content="black">
     <meta name="apple-mobile-web-app-title" content="鲸品漫画">
     <link rel="apple-touch-icon" href="icons/Icon-192.png">
-
+    <style>
+        .preLoad {
+            display: none;
+            position: absolute;
+            left: 50%;
+            top: 50%;
+            transform: translate3d(-50%, -50%, 0);
+        }
+        
+        .preLoad img {
+            display: block;
+            margin: 0 auto;
+        }
+        
+        @media (max-width: 575.98px) {
+            .progress-bar {
+                width: 100%;
+            }
+        }
+    </style>
     <title>鲸品漫画</title>
     <link rel="manifest" href="manifest.json">
 </head>
 
 <body bgcolor="#ffffff">
-    <div style="position: absolute;left: 0;top: 50%;transform: translate3d(0,-50%,0);text-align: center;">
+    <div class="preLoad" id='preLoad'>
         <img width="300" src="assets/img/start-load1.gif" />
-        <img width="100%" src="assets/img/start-load5.gif" />
+        <img width="600" src="assets/img/start-load5.gif" class="progress-bar" />
     </div>
+    <script>
+        (function() {
+            var preLoad = document.getElementById('preLoad');
+            if (window.name == "") {
+                preLoad && (preLoad.style.display = 'block');
+                window.name = "isReload"; // 在首次进入页面时我们可以给window.name设置一个固定值 
+            } else if (window.name == "isReload") {
+                /* console.log("页面被刷新"); */
+                preLoad && (preLoad.style.display = 'none');
+            }
+        })()
+    </script>
     <!-- This script installs service_worker.js to provide PWA functionality to
    application. For more information, see:
    https://developers.google.com/web/fundamentals/primers/service-workers -->

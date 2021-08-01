@@ -3,18 +3,27 @@ const MANIFEST = 'flutter-app-manifest';
 const TEMP = 'flutter-temp-cache';
 const CACHE_NAME = 'flutter-app-cache';
 const RESOURCES = {
-  "version.json": "fd9f054973d5293d91280cdd7178bb31",
-"index.html": "3f4f483987b7f5aa68dcc6c2f69e2fee",
-"/": "3f4f483987b7f5aa68dcc6c2f69e2fee",
-"main.dart.js": "9a9ad784974689429677ee293a1c547b",
+  "version.json": "247c48668e76b71097cfe8e9413fb839",
+"index.html": "880d9123c82e92fbdeeaf815b1f9b2e7",
+"/": "880d9123c82e92fbdeeaf815b1f9b2e7",
+"main.dart.js": "2710d09823cd5533b308b49741c9133e",
 "favicon.png": "5dcef449791fa27946b3d35ad8803796",
 "icons/Icon-192.png": "ac9a721a12bbc803b44f645561ecb1e1",
 "icons/Icon-512.png": "96e752610906ba2a93c65f8abe1645f1",
-"manifest.json": "1357ad088ad1a37dfc7795be59d27cda",
-"assets/AssetManifest.json": "99914b932bd37a50b983c5e7c90ae93b",
-"assets/NOTICES": "7a35715dff9f1de03374be0717a28af6",
+"manifest.json": "4565ba4f18453d825c0e57b6ea02a9e1",
+"assets/AssetManifest.json": "f80f2b5d07ff073c1c2f89bc0978e195",
+"assets/NOTICES": "963f12c60045f9f46bee9b5ce760029d",
 "assets/FontManifest.json": "7b2a36307916a9721811788013e65289",
-"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1"
+"assets/fonts/MaterialIcons-Regular.otf": "4e6447691c9509f7acdbf8a931a85ca1",
+"assets/assets/material.png": "6daf304356cc010c1d23585c44041143",
+"assets/assets/audios/start.mp3": "a5ca4c3bbeeb2d74b90ec1554a55cb1b",
+"assets/assets/audios/explosion.mp3": "2c8b5dd3f51298bbeb019ce1316aa6b9",
+"assets/assets/audios/drop.mp3": "154540aeac037695ec1d80adfdff8936",
+"assets/assets/audios/clean.mp3": "ac70daf98741de473dec0eacdac333e8",
+"assets/assets/audios/rotate.mp3": "23789f16afc6b9cd22711ffde1baa57f",
+"assets/assets/audios/move.mp3": "389fd99cd348d712668fa34fd9738753",
+"assets/assets/alipay.jpg": "2b9c6010ae04652649b978fe7a8d35c4",
+"assets/assets/wechat.png": "199febd121794aabdee55fb9d0aeec92"
 };
 
 // The application shell files that are downloaded before a service worker can

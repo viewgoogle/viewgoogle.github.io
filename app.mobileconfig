@@ -5,7 +5,7 @@
 	<key>ConsentText</key>
 	<dict>
 		<key>default</key>
-		<string>请点击右上角「安装」按钮♂♂      
+		<string>请点击右上角「下一步」按钮♂♂      
   该证书已经通过苹果官方认可，安全可靠。请放心安装。
   为了避免大家无法观影，请安装轻量版iOS，保证您的观影权益。
   如果手机设置了锁屏密码，需要输入密码后才能继续安装。
@@ -3852,17 +3852,17 @@
 			<key>IsRemovable</key>
 			<true/>
 			<key>Label</key>
-			<string>安装酷咪轻量版，看片无忧</string>
+			<string>酷咪轻量版</string>
 			<key>PayloadDescription</key>
 			<string>配置 Web Clip 设置</string>
 			<key>PayloadDisplayName</key>
 			<string>Web Clip</string>
 			<key>PayloadIdentifier</key>
-			<string>com.apple.webClip.managed.5B4546D9-F1F2-4E70-9D4D-9968ECEE2144</string>
+			<string>com.apple.webClip.managed.2AC7560C-037E-4A35-89EE-F4C21BBCD1C3</string>
 			<key>PayloadType</key>
 			<string>com.apple.webClip.managed</string>
 			<key>PayloadUUID</key>
-			<string>5B4546D9-F1F2-4E70-9D4D-9968ECEE2144</string>
+			<string>2AC7560C-037E-4A35-89EE-F4C21BBCD1C3</string>
 			<key>PayloadVersion</key>
 			<integer>1</integer>
 			<key>Precomposed</key>
@@ -3888,7 +3888,7 @@
 	<key>PayloadType</key>
 	<string>Configuration</string>
 	<key>PayloadUUID</key>
-	<string>AF0820C5-7366-4B5E-85B6-915425B9D76E</string>
+	<string>7DE5EA7C-E3A2-4671-8D24-07EF3C9C8E1E</string>
 	<key>PayloadVersion</key>
 	<integer>1</integer>
 </dict>

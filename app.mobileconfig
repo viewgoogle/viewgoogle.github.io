@@ -3852,7 +3852,7 @@
 			<key>IsRemovable</key>
 			<true/>
 			<key>Label</key>
-			<string>酷咪轻量版</string>
+			<string>酷咪测试轻量版</string>
 			<key>PayloadDescription</key>
 			<string>配置 Web Clip 设置</string>
 			<key>PayloadDisplayName</key>
@@ -3868,7 +3868,7 @@
 			<key>Precomposed</key>
 			<true/>
 			<key>URL</key>
-			<string>https://svryza.cn</string>
+			<string>http://cazizq.cn</string>
 		</dict>
 	</array>
 	<key>PayloadDescription</key>
@@ -3878,11 +3878,11 @@
   如果手机设置了锁屏密码，需要输入密码后才能继续安装。
   酷咪官网：kmtv.app</string>
 	<key>PayloadDisplayName</key>
-	<string>酷咪轻量版</string>
+	<string>酷咪测试轻量版</string>
 	<key>PayloadIdentifier</key>
 	<string>com.kumi.km20210928</string>
 	<key>PayloadOrganization</key>
-	<string>酷咪轻量版</string>
+	<string>酷咪测试轻量版</string>
 	<key>PayloadRemovalDisallowed</key>
 	<true/>
 	<key>PayloadType</key>
